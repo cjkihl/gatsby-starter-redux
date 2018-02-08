@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-starter-design-redux",
+  "description": "Gatsby starter using redux",
+  "version": "0.0.1",
+  "author": "Carl-Johan Kihl <carljohan.kihl@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.158",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-devtools": "^3.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma all --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-webpack": "^0.8.4",
+    "eslint-plugin-flowtype": "^2.41.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.10.2"
+  }
+}
