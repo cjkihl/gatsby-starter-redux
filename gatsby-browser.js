@@ -1,4 +1,7 @@
+/* globals window */
+
 import React from 'react';
+import { hydrate } from 'emotion';
 import { Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
@@ -14,4 +17,14 @@ exports.replaceRouterComponent = ({ history }) => {
   );
 
   return ConnectedRouterWrapper;
+};
+
+exports.onClientEntry = () => {
+  if (
+    /* eslint-disable no-underscore-dangle */
+    typeof window !== `undefined` &&
+    typeof window.__EMOTION_CRITICAL_CSS_IDS__ !== `undefined`
+  ) {
+    hydrate(window.__EMOTION_CRITICAL_CSS_IDS__);
+  }
 };

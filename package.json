@@ -4,13 +4,19 @@
   "version": "0.0.1",
   "author": "Carl-Johan Kihl <carljohan.kihl@gmail.com>",
   "dependencies": {
+    "emotion": "^9.0.0",
+    "emotion-server": "^9.0.0",
+    "emotion-theming": "^9.0.0",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-plugin-typography": "^1.7.13",
+    "react-emotion": "^9.0.0",
     "react-helmet": "^5.2.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
-    "redux-devtools": "^3.4.1"
+    "redux-devtools": "^3.4.1",
+    "typography-theme-bootstrap": "^0.16.7"
   },
   "keywords": [
     "gatsby"
@@ -25,6 +31,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "babel-plugin-emotion": "^9.0.0",
     "eslint": "^4.16.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-import-resolver-webpack": "^0.8.4",
