@@ -5,6 +5,10 @@ Get you started with a minimalistic setup for Redux
 Componets have some very basic styling with emotion just to show how transitions can be used on to make the page
 react as a whole on changes in the state.
 
+## Demo
+
+https://caki0915.github.io/gatsby-starter-redux/
+
 ## Features
 
 Redux and Redux-devtools.
