@@ -2,8 +2,7 @@
 
 Starter template for Gatsby with Redux and Emotion
 Get you started with a minimalistic setup for Redux
-Componets have some very basic styling with emotion just to show how transitions can be used on to make the page
-react as a whole on changes in the state.
+Basic styling of components with Emotion, to get you some inspiration and to show how multiple components can react to changes in the state.
 
 ## Demo
 
@@ -11,10 +10,12 @@ https://caki0915.github.io/gatsby-starter-redux/
 
 ## Features
 
-Redux and Redux-devtools.
-Emotion with a basic theme with SSR
-Typography.js
-Eslint rules
+* Redux and Redux-devtools.
+* Emotion with a basic theme with SSR
+* Typography.js
+* Eslint rules based on Prettier and Airbnb
+
+## Install
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
