@@ -8,7 +8,12 @@ import Drawer from '../components/Drawer';
 import theme from '../utils/theme';
 import { toggleDrawer as toggleDrawerAction } from '../state/app';
 
-const Container = styled.section`
+const Container = styled.main`
+  width: 100vw;
+  overflow-x: hidden;
+`;
+
+const Content = styled.section`
   transition: transform 0.3s ease-in-out;
   transform: perspective(200px)
     ${p =>
@@ -42,8 +47,8 @@ const TemplateWrapper = ({ children, isDrawerOpen, toggleDrawer }) => (
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Container isDrawerOpen={isDrawerOpen}>
-        <div>{children()}</div>
+      <Container>
+        <Content isDrawerOpen={isDrawerOpen}>{children()}</Content>
       </Container>
       <Overlay
         isDrawerOpen={isDrawerOpen}
