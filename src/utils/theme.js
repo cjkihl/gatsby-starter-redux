@@ -1,3 +1,7 @@
+/**
+ * Basic theme
+ */
+
 const palette = {
   primary: {
     contrast: 'white',
@@ -9,16 +13,20 @@ const palette = {
     dark: '#181818',
   },
 };
+
 const baseSize = 18;
 
 const typography = {
   baseFontSize: `${baseSize}px`,
 };
+
 const zIndex = {
   header: 10,
   overlay: 15,
   drawer: 20,
+  headerText: 25,
 };
+
 export default {
   palette,
   typography,
