@@ -21,7 +21,7 @@ const Content = styled.section`
         ? `translateX(${p.theme.size(8)}) translateZ(-20px)`
         : 'none'};
   padding-top: ${p => p.theme.size(4)};
-  padding-left: ${p => p.theme.size(2)};
+  padding-left: ${p => p.theme.size(1)};
 `;
 
 const Overlay = styled.div`
