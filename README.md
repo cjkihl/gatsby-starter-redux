@@ -1,8 +1,6 @@
 # gatsby-starter-default
 
-Starter template for Gatsby with Redux and Emotion
-Get you started with a minimalistic setup for Redux
-Basic styling of components with Emotion, to get you some inspiration and to show how multiple components can react to changes in the state.
+Minimalistic starter template for Gatsby with Redux and Emotion to get you started.
 
 ## Demo
 
