@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'react-emotion';
-import { toggleDrawer as toggleDrawerAction } from '../../state/app';
 
-const Hamburger = styled.a`
+const Hamburger = styled.span`
   transition: transform 0.3s ease-in-out;
   transform: ${props => (props.isDrawerOpen ? 'scale(0.7)' : 'scale(0.9)')};
 `;
@@ -17,12 +16,8 @@ const Line = styled.span`
   transition: transform 0.3s ease-in-out;
 `;
 
-const Menu = ({ isDrawerOpen, toggleDrawer }) => (
-  <Hamburger
-    isDrawerOpen={isDrawerOpen}
-    href="#"
-    onClick={() => toggleDrawer(!isDrawerOpen)}
-  >
+const Menu = ({ isDrawerOpen }) => (
+  <Hamburger isDrawerOpen={isDrawerOpen}>
     <Line
       css={{
         transform: isDrawerOpen ? 'translateX(-10px) rotate(-45deg)' : 'none',

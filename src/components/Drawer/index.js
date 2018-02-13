@@ -2,16 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import styled from 'react-emotion';
 import { navigateTo, withPrefix } from 'gatsby-link';
-import Hamburger from './Hamburger';
 import { toggleDrawer as toggleDrawerAction } from '../../state/app';
-
-const MenuIcon = styled.nav`
-  position: absolute;
-  display: flex;
-  width: ${p => p.theme.size(2)};
-  transition: right 0.3s ease-in-out;
-  right: ${p => (p.isDrawerOpen ? p.theme.size(1) : `-${p.theme.size(4)}`)};
-`;
 
 const Paper = styled.aside`
   position: fixed;
@@ -37,22 +28,19 @@ const Header = styled.header`
 const Item = styled.a`
   color: ${p => p.theme.palette.secondary.contrast};
   padding: ${p => p.theme.size(1)} ${p => p.theme.size(2)};
+  transition: background-color 0.1s ease-out;
   &:hover {
-    background: ${p => p.theme.palette.secondary.main};
+    background: ${p => p.theme.palette.secondary.dark};
   }
   cursor: pointer;
 `;
 
-// Static data to keep this starter as simple as possible,
+// Static data to keep it simple
 const items = [{ url: '/', name: 'Home' }, { url: '/page-2/', name: 'Page 2' }];
 
 const Drawer = ({ isDrawerOpen, toggleDrawer }) => (
   <Paper isDrawerOpen={isDrawerOpen}>
-    <Header>
-      <MenuIcon isDrawerOpen={isDrawerOpen}>
-        <Hamburger />
-      </MenuIcon>
-    </Header>
+    <Header />
     {items.map(item => (
       <Item
         key={item.url}
