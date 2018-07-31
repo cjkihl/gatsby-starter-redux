@@ -35,7 +35,6 @@ const Item = styled.a`
   cursor: pointer;
 `;
 
-// Static data to keep it simple
 const items = [{ url: '/', name: 'Home' }, { url: '/page-2/', name: 'Page 2' }];
 
 const Drawer = ({ isDrawerOpen, toggleDrawer }) => (
