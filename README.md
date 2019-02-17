@@ -1,16 +1,26 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
+  <a href="https://redux.js.org">
+    <img alt="Redux" src="https://redux.js.org/img/redux.svg" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby Starter Redux Emotion
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Minimalistic starter template for Gatsby with Redux and Emotion to get you started.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## Demo
+
+https://caki0915.github.io/gatsby-starter-redux/
+
+## Features
+
+- [Redux](https://github.com/reactjs/redux).
+- [Emotion](https://github.com/emotion-js/emotion)
+- [Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting.
 
 ## 🚀 Quick start
 
@@ -20,7 +30,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    npx gatsby new my-redux-starter https://github.com/caki0915/gatsby-starter-redux
     ```
 
 1.  **Start developing.**
@@ -28,8 +38,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-default-starter/
-    gatsby develop
+    cd my-redux-starter/
+    npm run develop
     ```
 
 1.  **Open the source code and start editing!**
@@ -38,7 +48,13 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `my-redux-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+
+## Formatting and Linting
+
+Formatting and lint is done with [Prettier](https://prettier.io/) and [Eslint](https://eslint.org/)
+
+Run `npm run format` to fix all lint & formatting issues.
 
 ## 🧐 What's inside?
 
@@ -91,6 +107,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/caki0915/gatsby-starter-redux)
