@@ -7,7 +7,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Starter Redux Emotion
+  Gatsby Starter Redux & Emotion
 </h1>
 
 Minimalistic starter template for Gatsby with Redux and Emotion to get you started.
@@ -18,9 +18,9 @@ https://caki0915.github.io/gatsby-starter-redux/
 
 ## Features
 
-- [Redux](https://github.com/reactjs/redux).
+- [Redux](https://github.com/reactjs/redux)
 - [Emotion](https://github.com/emotion-js/emotion)
-- [Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting.
+- [Eslint](https://eslint.org/) and [Prettier](https://prettier.io/) for linting
 
 ## 🚀 Quick start
 
