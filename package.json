@@ -22,7 +22,7 @@
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
     "react-redux": "^6.0.0",
-    "redux": "^4.0.1"
+    "redux": "4.2.0"
   },
   "keywords": [
     "gatsby", "redux", "emotion"
